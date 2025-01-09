@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 function Home() {
   return (
     <div className="Home">
+      <div id="hello"></div>
       <Nav/>
       <Hero 
         imageSrc="https://static.wixstatic.com/media/e645a6_9f68d4487f374106b5ae1befa8179ca4~mv2.png"
@@ -44,7 +45,7 @@ function Home() {
           <span className="image-tag">Website Development</span>
         </p>
         <div className="hero-link">
-          <a href="/waywize" className="cta-button">See this Project</a>
+          <a href="/#/waywize" className="cta-button">See this Project</a>
         </div>
       </Hero>
 
@@ -61,7 +62,7 @@ function Home() {
           <span className="image-tag">App Development</span>
         </p>
         <div className="hero-link">
-          <a href="/krespos" className="cta-button">See this Project</a>
+          <a href="/#/krespos" className="cta-button">See this Project</a>
         </div>
       </Hero>
 
@@ -77,7 +78,7 @@ function Home() {
           <span className="image-tag">App Development</span>
         </p>
         <div className="hero-link">
-          <a href="/kickoff" className="cta-button">See this Project</a>
+          <a href="/#/kickoff" className="cta-button">See this Project</a>
         </div>
       </Hero>
 

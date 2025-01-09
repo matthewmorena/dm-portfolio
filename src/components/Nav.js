@@ -15,9 +15,9 @@ const Nav = () => {
         ☰
       </button>
       <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-        <li><a href="/#top">Hello</a></li>
-        <li><a href="/#projects">Projects</a></li>
-        <li><a href="/#contact">Contact</a></li>
+        <li><a href="/#/#hello">Hello</a></li>
+        <li><a href="/#/#projects">Projects</a></li>
+        <li><a href="/#/#contact">Contact</a></li>
       </ul>
     </nav>
   );
