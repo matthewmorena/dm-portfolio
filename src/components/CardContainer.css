@@ -1,0 +1,19 @@
+.card-container-wrapper {
+    width: 100%; /* Full width of the container */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.card-container-title {
+    text-align: center; /* Center the title */
+    font-size: 3em; /* Adjust size as needed */
+    margin-bottom: 10px; /* Space between title and cards */
+    font-weight: bold; /* Make the title stand out */
+    color: #000; /* Adjust the color to match your design */
+}
+
+.card-container {
+    display: grid; /* Use grid layout for cards */
+    width: 85%;
+    padding-left: 12.5%;
+}

@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Creato Display';
+  src: url('/src/CreatoDisplay-Medium.otf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/Gilroy-Regular.ttf');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Creato Display', sans-serif;
+  margin-top: 30px;
+  padding: 0;
+  background-color: #ede8f5;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+hr {
+  border-top: 1px solid rgb(127,52,72);
 }

@@ -1,0 +1,41 @@
+.branding-head {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.branding-title {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.color-palette-container {
+    display: flex;
+    width: 60%;
+    padding-left: 20%;
+}
+
+.color {
+    width: 25%;
+    text-align: center;
+}
+
+.dot {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.font-container {
+    display: flex;
+    width: 65%;
+    padding-left: 25%;
+    font-size: 1.5em;
+}
+
+.font-col {
+    width: 50%;
+}
