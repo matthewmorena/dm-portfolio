@@ -11,7 +11,7 @@ const Branding = ({ colors, font, appName }) => {
                         <span className='dot' style={{ backgroundColor:color }}></span>
                         <span className='color-code'>{color}</span>
                     </div>
-                ))};
+                ))}
             </div>
             <h3 className='branding-title'>Font</h3>
             <div className='font-container'>

@@ -19,10 +19,10 @@ function Home() {
           I'm <span className="emphasis">David.</span>
         </h1>
         <h2 className="hero-subtitle">
-          App Designer, Web Designer, and Marketer
+          UI/UX Designer, Problem Solver, Marketer
         </h2>
         <p className="hero-description">
-          Crafted by a college designer with hands-on experience in the industry, my journey from internships to launching this platform reflects a passion for innovative web and app design tailored to elevate your digital experience.
+          Front-end UI designer dedicated to creating clean, user-friendly designs that anyone can navigate effortlessly. My goal is to simplify digital experiences for people of all ages, making technology accessible and enjoyable for everyone.
         </p>
       </Hero>
 
@@ -42,6 +42,7 @@ function Home() {
         </h2>
         <p className="hero-description">
           <span className="image-tag">Website Design</span>
+          <br className="mobile-only" />
           <span className="image-tag">Website Development</span>
         </p>
         <div className="hero-link">

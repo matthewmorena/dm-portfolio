@@ -56,7 +56,7 @@
   /* Mobile Menu */
   @media (max-width: 768px) {
     .nav-logo {
-      font-size: 1.5rem;
+      font-size: 1.35rem;
     }
     .nav-links {
       display: flex;

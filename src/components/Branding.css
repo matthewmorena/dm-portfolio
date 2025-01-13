@@ -39,3 +39,29 @@
 .font-col {
     width: 50%;
 }
+
+@media (max-width: 768px) {
+    .color-palette-container {
+        display: flex;
+        width: 90%;
+        padding-left: 5%;
+    }
+
+    .dot {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .font-container {
+        display: flex;
+        width: 100%;
+        padding-left: 15%;
+        font-size: 1em;
+    }
+    
+    .font-col {
+        width: 50%;
+    }
+}

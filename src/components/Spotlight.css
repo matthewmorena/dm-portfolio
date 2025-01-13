@@ -34,3 +34,32 @@ p {
     font-size: 1.5em;
     line-height: 1.5em;
 }
+
+@media (max-width: 768px) {
+    .spotlight-inner {
+        flex-direction: column;        
+        margin: 5%;
+        margin-top: 15%;
+        gap: 20px;
+    }
+
+    .spotlight-column {
+        width: 100%; /* Columns take full width */
+        padding: 2%; /* Adjust padding for better spacing */
+        padding-left: 0%;
+        text-align: center; /* Center-align content */
+    }
+
+    .spotlight-title {
+        font-size: 3em; /* Reduce title size */
+    }
+
+    .spotlight-subtitle {
+        font-size: 1.5em; /* Reduce subtitle size */
+    }
+
+    p {
+        font-size: 1em; /* Adjust paragraph font size */
+        line-height: 1.2em; /* Slightly decrease line height */
+    }
+}

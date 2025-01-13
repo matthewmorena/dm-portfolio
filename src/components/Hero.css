@@ -56,7 +56,13 @@
     color: #fff;
     background-color: rgb(127,52,72);
   }
+
+  .mobile-only {
+    display: none;
+  }
   
+  
+
   @media (max-width: 768px) {
     .hero {
       flex-direction: column; 
@@ -66,13 +72,30 @@
       padding-right: 0%;
     }
   
-    .hero-text, .hero-image {
+    .hero-text {
+      order: 1; /* Ensure text comes first */
       width: 90%; 
       padding: 5%;
       text-align: left; 
-    }
-  
-    .hero-text {
       margin: 0;
     }
+  
+    .hero-image {
+      order: 2; /* Ensure image comes after text */
+      width: 90%; 
+      padding: 5%;
+    }
+
+    .image-tag {
+      margin-right: 4%;
+      margin-bottom: 2%;
+      padding: 1%;
+      background-color: rgb(208, 178, 193);
+      font-size: 0.9em;
+    }
+    
+    .mobile-only {
+      display: inline;
+    }
   }
+  

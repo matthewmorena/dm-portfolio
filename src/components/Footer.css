@@ -1,0 +1,19 @@
+.contact-logos {
+    width: "10%";
+    display: flex;
+    justify-Content: "space-between";
+    margin-left: 42%;
+}
+
+.contact-logo {
+    padding-left: 5%;
+}
+
+@media (max-width: 768px) {
+    .contact-logos {
+        width: "10%";
+        display: flex;
+        justify-Content: "space-between";
+        margin-left: 30%;
+    }
+}

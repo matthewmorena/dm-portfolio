@@ -4,3 +4,12 @@
     margin: auto;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 3%;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+}
