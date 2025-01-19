@@ -1,0 +1,33 @@
+.project-brief {
+    display: flex;
+    width: 90%;
+    margin: 5%;
+}
+
+.brief-text {
+     margin: 3%;
+     width: 80%;
+}
+
+.brief-image {
+    margin: 3%;
+    width: 20%;
+    box-shadow: 2px 2px 6px 2px #BBB;
+}
+
+@media (max-width: 768px) {
+    .project-brief {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: left;
+        width: 90%;
+    }
+
+    .brief-text {
+        width: 80%;
+    }
+
+    .brief-image {
+        width: 50%;
+    }
+}

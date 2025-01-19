@@ -20,7 +20,12 @@
     color: rgb(127,52,72);
     cursor: pointer;
     transform: skew(0deg); /* Normal text */
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;    
+  }
+
+  .nav-logo a {
+    text-decoration: none;
+    color: rgb(127,52,72);
   }
 
   .nav-logo:hover {

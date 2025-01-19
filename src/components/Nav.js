@@ -10,7 +10,7 @@ const Nav = () => {
 
   return (
     <nav className="nav">
-      <div className="nav-logo">David Munera Designs</div>
+      <div className="nav-logo"><a href="/#/#hello">David Munera Designs</a></div>
       <button className="nav-toggle" onClick={toggleMenu}>
         ☰
       </button>

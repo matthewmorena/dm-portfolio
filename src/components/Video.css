@@ -11,3 +11,17 @@
     margin-bottom: 5%;
     font-size: 3em;
 }
+
+video {
+    width: 30%;
+}
+
+@media (max-width: 768px) {
+    .video-container{
+        margin: 5px; 
+    } 
+
+    video {
+        width: 60%;
+    }
+}

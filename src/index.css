@@ -27,3 +27,9 @@ body {
 hr {
   border-top: 1px solid rgb(127,52,72);
 }
+
+@media (max-width: 768px) {
+  body {
+    width: 96%;
+  }
+}
